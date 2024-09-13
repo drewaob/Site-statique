@@ -10,7 +10,7 @@ function handleClick(e) {
     // rajout une classe
 	st.classList.add("red-text")
 
-}
+} 
 
 btn.addEventListener("click", handleClick)
 

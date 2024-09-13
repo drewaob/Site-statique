@@ -4,7 +4,7 @@ const st = document.getElementById("st")
 const main_section = document.querySelector(".main_section")
 // definir une function
 function handleClick(e) {
-	// e.target.innerText = "clicke le btn"
+	// e.target.innerText = "clique sur le btn"
 	// selectioner le titre
     st.innerText = "Formlulaire envoyé !   !!"
     // rajout une classe

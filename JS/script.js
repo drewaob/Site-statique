@@ -1,18 +1,18 @@
 // identifier le btn
-const btn = document.getElementById("btn")
-const st = document.getElementById("st")
-const main_section = document.querySelector(".main_section")
-// definir une function
-function handleClick(e) {
-	// e.target.innerText = "clique sur le btn"
-	// selectioner le titre
-    st.innerText = "Formlulaire envoyé !   !!"
-    // rajout une classe
-	st.classList.add("red-text")
+const btn = document.getElementById("btn");
+const st = document.getElementById("st");
 
+// définir une fonction
+function handleClick(e) {
+    e.preventDefault();  
+    st.innerText = "Formulaire envoyé !";
+    st.classList.add("red-text");
+
+    setTimeout(() => {
+ }, 10000);  
 } 
 
-btn.addEventListener("click", handleClick)
+btn.addEventListener("click", handleClick);
 
 // log pour tester
-console.log("test ...", btn)
+console.log("test ...", btn);

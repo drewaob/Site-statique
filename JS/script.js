@@ -6,14 +6,12 @@ const main_section = document.querySelector(".main_section")
 function handleClick(e) {
 	// e.target.innerText = "clicke le btn"
 	// selectioner le titre
-    st.innerText = "BOUTON CLIQUÉ  !!"
+    st.innerText = "Formlulaire envoyé !   !!"
     // rajout une classe
 	st.classList.add("red-text")
 
-	// changer son innerText
 }
 
-// rachouter une click event
 btn.addEventListener("click", handleClick)
 
 // log pour tester

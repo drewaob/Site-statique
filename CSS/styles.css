@@ -4,29 +4,10 @@ body {
     background-color: #f0f0f0;
 }
 
-/* Header */
 .navbar {
     background-color: #007bff; /* Bleu foncé */
 }
 
-/* Hero section */
-.hero {
-    background-image: url('background.jpg'); /* Remplace par ton image */
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.overlay {
-    background-color: rgba(0, 0, 0, 0.5); /* Overlay sombre */
-    padding: 50px;
-    text-align: center;
-    width: 100%;
-}
 
 h1 {
     font-size: 3rem;
@@ -39,32 +20,4 @@ p {
     color: #ffffff;
     margin-bottom: 30px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
-}
-
-.btn-primary {
-    background-color: #6f42c1;
-    border-color: #6f42c1;
-    margin-right: 10px;
-}
-
-.btn-primary:hover {
-    background-color: #ffffff;
-    color: #6f42c1;
-}
-
-.btn-light {
-    background-color: #ffffff;
-    color: #6f42c1;
-}
-
-/* Features section */
-.features {
-    padding: 50px;
-    background-color: #ffffff;
-}
-
-.features h2 {
-    color: #6f42c1;
-    font-weight: bold;
-    margin-bottom: 20px;
 }
